@@ -1,0 +1,46 @@
+/* el boton de menu cambia de tamaño */
+.small-menu {
+    animation: small-menu 0.5s ease-in-out forwards;
+    }
+    @keyframes small-menu {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: translate(0px, -80px)
+        }
+    }
+/* la imagen del cover cambia de tamaño */
+.small-cover {
+    cursor: pointer;
+    background-position-x: center;
+    background-position-y: -8px;
+    animation: small-cover  0.5s ease-in-out forwards;
+    }
+    @keyframes small-cover  {
+        to {
+            width: 48px;
+            height: 48px;
+            border-radius: 11px;
+            margin: 0px 10px 0px 15px;
+        }
+    }
+/* los controles del player cambian de posicion */
+.small-controls-player-container {
+    flex-direction: row;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    animation: small-controls-player-container 0.5s ease-in-out forwards;
+    }
+    @keyframes small-controls-player-container {
+
+        0% {
+            width: 309px;
+            height: 109px;
+        }
+        100% {
+            width: 309px;
+            height: 109px;
+            top: 0;
+        }
+    }

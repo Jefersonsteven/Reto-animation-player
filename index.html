@@ -5,36 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <!-- 1. Card Controls -->
+    <section class="card">
+        <!-- 1. Card Controls -->
     <div class="controls-player-container">
         <!-- Cover -->
-        <div class="controls-player-container__Cover">
-            <button></button>
-            <img src="#" alt="Menu">
+        <div class="controls-player-container__cover">
+            <button class="menu">
+                <img src="https://previews.dropbox.com/p/orig/ABOJDSHrWrFWReKhTusjePqp-eneHsjz5U-1x1xix70CJNKPNofDaEIlfpRgNH8wRzaW9_BHQUI5krmnxP8KQSIJmFi7PZXnDtkxS46MLvW5GV6C8uZn6ekMv_568DDyZ4ctG2fPUCm5a6aPcrVv0k1CwsV2k-rqwn7nvhpJq8y-N9vjcD8f2eIEm3dIwoI4Fht8DGNLaKFJ30Hw7QdjiJzqoZTEt0gcuGJns5MDQNqpVrjncv4hg_dwzmDHRoxD9gJ86E7sesSZBLvAtf48qvWrwjSKQkIi17hCTYCH8k3NOsBX3nP5LV7Mfp0Otpf4FnzQbI0Ga37jy66ajH6a0ZFt/p.svg?fv_content=true&size_mode=5" alt="menu">
+            </button>
+            <figure class="cover remove"></figure>
         </div>
         <!-- Controls -->
-        <div class="controls-player-container__controls">
-            <button>
-                <img src="#" alt="Atras">
-            </button>
-            <div class="controls-player-container__controls--info-song">
-                <p></p>
-                <p></p>
+        <div class="controls-player-container__controls-container">
+            <div class="controls-player-container__controls">
+                <button>
+                    <img src="https://previews.dropbox.com/p/orig/ABMCKYI4VYiKt0T2WLNNFNbfwdHS-zca6L4K2vZMEFBFY31GzThX_R51OtS_xnrTDoJG23tE8QClqSjmna2NFCEAoXhDNoPsa-_RrzAaQcOwg0Pa0llvnZ85nQsspu8Ha709zHT3FBoQDO1-ywhP2eBUk64pZ9FmPixJ70rbO8gwyqPVbGyH_50RdVwlUjRnKAGsQVRz2HAk5Ji-OHqO_HyE2XEMwbpbMjPqGphwviumr80vAnyyWhC7mnF67BZvbgsgCZ6Oy5UD7ebejr8y0Bsca1ZnQxG33rZhp5bFJJEnVIUpTbg1SYkc-FoUOIjzGjm_NE3bKp9RrX2uJXWFWGYJ/p.svg?fv_content=true&size_mode=5" alt="Skip-Back">
+                </button>
+                <div class="controls-player-container__controls--info-song">
+                    <p>Billie Eilish</p>
+                    <p>Lost cause</p>
+                </div>
+                <button>
+                    <img src="https://previews.dropbox.com/p/orig/ABOJB8uSFo8Ln0IvicoHyG66hhMDElUtlwtB01pv3s3Mi7HqQbciRLMmGWDmrlk-9gdUAaM8_4gliiAwTZPVzgLNEio_N5t1Nha0b2v8m7ydJkYJOZHF5uncga5VK10iyowr9uz-DZj1i1P4l3J-S3d7CR3TkNNQ_O7-3zgb6vpSpeMDqkbilrll25am2af53d4i_15oTXwr3ra63tKxLyrQg2bltT77NY_L5kZTAc5LKb4afyocEvOqmpjuXcPtOg_kPd3puM3E4GQD8l3WamuCMvCOs5q_XBKzm4OMuzEV_UresMxA6lwE4wenhEXMNSilRWBDwpkvhB1ACyJpEBpC/p.svg?fv_content=true&size_mode=5" alt="Skip-Fwd">
+                </button>
             </div>
-            <button>
-                <img src="#" alt="Adelante">
-            </button>
-        </div>
-        <!-- Bar progress -->
-        <div class="controls-player-container__bar-progress">
-            <div></div>
-            <div></div>
-            <div></div>
+            <!-- Bar progress -->
+            <div class="controls-player-container__bar-progress">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
     </div>
 
+    <!-- 2. Player list -->
+    <div class="player-list-container">
+        <div class="player-list-container__player-list">
+            <!-- Song1 -->
+            <div class="player-list-container__player-list--song song1">
+                <figure class="cover-small cover1"></figure>
+                <article class="info">
+                    <h2 class="name-singer">Alicia Keys</h2>
+                    <div class="info-song">
+                        <p class="name-song">If I Ain't Gou You</p>
+                        <p class="duration">3:30</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Song2 -->
+            <div class="player-list-container__player-list--song">
+                <figure class="cover-small cover2"></figure>
+                <article class="info">
+                    <h2 class="name-singer">John Legend</h2>
+                    <div class="info-song">
+                        <p class="name-song">All of Me</p>
+                        <p class="duration">5:07</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Song3 -->
+            <div class="player-list-container__player-list--song">
+                <figure class="cover-small cover3"></figure>
+                <article class="info">
+                    <h2 class="name-singer">Bad Bunny</h2>
+                    <div class="info-song">
+                        <p class="name-song">Yonaguni</p>
+                        <p class="duration">3:28</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Song4 -->
+            <div class="player-list-container__player-list--song">
+                <figure class="cover-small cover4"></figure>
+                <article class="info">
+                    <h2 class="name-singer">Christian Nodal</h2>
+                    <div class="info-song">
+                        <p class="name-song">Aqui Abajo</p>
+                        <p class="duration">2:36</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Song5 -->
+            <div class="player-list-container__player-list--song">
+                <figure class="cover-small cover5"></figure>
+                <article class="info">
+                    <h2 class="name-singer">Ed Sheeran</h2>
+                    <div class="info-song">
+                        <p class="name-song">Thinking Out Loud</p>
+                        <p class="duration">4:56</p>
+                    </div>
+                </article>
+            </div>
+            <!-- Song6 -->
+            <div class="player-list-container__player-list--song">
+                <figure class="cover-small cover6"></figure>
+                <article class="info">
+                    <h2 class="name-singer">Sebastian Yatra</h2>
+                    <div class="info-song">
+                        <p class="name-song">Cristina</p>
+                        <p class="duration">5:22</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="./index.js"></script>
 </body>
 </html>

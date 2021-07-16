@@ -1,0 +1,24 @@
+.player-list-container__player-list::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.player-list-container__player-list::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.player-list-container__player-list::-webkit-scrollbar-button:increment,.player-list-container::-webkit-scrollbar-button {
+    display: none;
+}
+
+.player-list-container__player-list::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.player-list-container__player-list::-webkit-scrollbar-thumb {
+    background-color: #727c92;
+    border-radius: 20px;
+}
+
+.player-list-container__player-list::-webkit-scrollbar-track {
+    border-radius: 10px;
+}

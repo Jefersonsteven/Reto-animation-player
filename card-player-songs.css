@@ -1,0 +1,95 @@
+.player-list-container {
+    width: 309px;
+    height: 389px;
+    overflow: hidden;
+    border-radius: 22px;
+    position: absolute;
+}
+
+.player-list-container__player-list {
+    width: 309px;
+    height: 389px;
+    overflow: auto;
+    border-radius: 22px;
+    background: #535B6C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-list-container__player-list--song {
+    width: 90%;
+    height: 258px;
+    margin: 20px 0px 20px 0px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    color: white;
+}
+
+.song1 {
+    margin-top: 129px;
+}
+
+.player-list-container__player-list--song .info {
+    display: flex;
+    flex-direction: column;
+    height: 120%;
+    justify-content: space-between;
+}
+
+.player-list-container__player-list--song .info .info-song {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.player-list-container__player-list--song .info .name-singer {
+    font-size: 1.8rem;
+}
+
+.player-list-container__player-list--song .info .info-song {
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+
+.cover-small {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+}
+
+.cover1 {
+    background-image: url("https://previews.dropbox.com/p/thumb/ABMdnd7jgSYfMCP_nJGE_h4Nb0s0GCsOxmvxI1_4fNpiVRwEONQ_dmYW6QiAP0jEdQhwEeoaDizoAXX5yrlNwNon0lStnisHSiKWg1M4TiPcCxIjFpMFdswPDP7ZJAM3OONgBVz0cn7HmhYQlDzlZEjdfnyYTQMLXNB6-bU-5fmyLlbmiUjN84lUTPFsyBsiGWEM7DFbpKJP_Hi4X-2mql-HtOmYPLzShiLYG0DytWvAABW_jCxlBVJ1xu_LsRmxUhGYKOedT1SzVkvrSLn29G6ru_6KvH433RoP-uy-Tl2lG5nwxXmampiUjs9j4OKPkbxx2lRbsbyUovAujSFSjXJbAAH7B1Ob_SeoBcjy-mZJaA/p.jpeg?fv_content=true&size_mode=5");
+    background-position: center;
+}
+
+.cover2 {
+    background-image: url("https://previews.dropbox.com/p/thumb/ABPW-3cLGIu-G0eGq3GFDg-qMIimLxEz6QGjNi4r_aZyLJT_v9BLC4HskwXuvgc2jeJnl1ZLvZNaACyAF3p8-Jp4CwPZdqiDYFdIwwOlupCioGxEcBhi_1pzFLuuJpTUyBxHoM1b417LDMzN7v1ByQLYJBv2xYNS6Beh8dOyJlviYOP-IWbZwQKPHcHYDEeld-OrMgh0oBb3jtoWqba58DDgdGrHnodNKVGHwhzTy_w5wOMHfRH1pQP1RD65Rmna9rdP30lOykZo_qvZNS8ucKUUAGZSyk4IjedFBy4lBXA4uRFNEsMUwQZqPN34r9MhwRbRLebLBCBlkDR29BLLqlXZZ8SCa8cBw9IZvfmTCzVYqw/p.jpeg?fv_content=true&size_mode=5");
+    background-position: center;
+}
+
+.cover3 {
+    background-image: url("https://previews.dropbox.com/p/thumb/ABNifo-898S0f8N-_f0ZIkR9lpHyzpPcqVMfESRYtqn-OB_tVDxcmrOxBFbHYySMjagwzlZ8Ds-Zv8wrlmX91MbSRgyQwKbkAjXtZZO3qJ9sy-67v42pz410rLBSsJGAwX8qI_-R1YGwzT37YqdbBtBG3ZSZoIAA9jWsOXkWiUUjYvgQ50BRkX7GUHj7Ncp7wUw8jrE84HpxLCYy6Ybns80nmHEuS5iSUsxWcrHCBleUKbRrGMTPtUl5-DZcmnTgonGDsmo290YdQqUJ_rJ8b0VB49e1Ciz-SI8ikCMlvZffXMNwMPtd6Vu4QvUmGlylWblWpj8Y03DXaeYfRaE350v7yV6tByco_GFw_4JgbsKFJw/p.jpeg?fv_content=true&size_mode=5");
+    background-position: center;
+}
+
+.cover4 {
+    background-image: url("https://previews.dropbox.com/p/thumb/ABOMiUoPBe6VMv6OHbjMBtY7r54ZXwkQSsHidmFG6Rz_NcAwGy8SmUwVCjI0VObA4KorvCSQe9pONo4LRgbm07hxthpPwshltpTHKFAtfNz4sRbFbh2n-dXsCHxxX2QPICjWWm70hCLpeajuAAVswIlEcnRcdGkHpM0vucfsUcPWhZ-bx6XyBoWZNyQco7iAylUiIQZKfVSKELg9qJ0UUEuTgmElv57L1vDToVzmr5lR9_qzJ-3ZP0JdnWu6qYwO6Tsu71eA8lDblKCzmG26_7VsSkxtrMKklhd9bXIGsYyW9cov8_e_1F-aHRie-YYogOYt3G6PrCtCKEnuqfKo-iOPf0qR78Q6gAjx260mP477NA/p.jpeg?fv_content=true&size_mode=5");
+    background-position: center;
+}
+
+.cover5 {
+    background-image: url("https://previews.dropbox.com/p/thumb/ABOB2cK0QGzuA5vLIeJDotVcYlems1hUkHUIcLvuSstLOuZjjjGmUBX5XRWOjgOo8eUP_690ZOdR_0IlsWPjpTwb7EEgLYb8W_fBcs37aqKSH2Uh-n-XyOXyLrYiolfEwpQbj0xMXZbiDYeq7T9gMLWCB4PDEIkhTe6_XgHs-V65GF9lUZ3bogK21-9IyKsbmjqfRX5xM13E55p1od9Go968j7C3dU3z9RZDL7DqcOJWqA7skOWtaOEQXKVLJcN1k3eO7JIeZYvyjlE4UC8WBdeMV7HSuE8niZBprhXlL8QLQMAIIi-Z9A7BqchjTIky6VlDPb2k0NCsrHPEu8nqk5vvhsCb3_czCTxvXOC5nZPplg/p.png?fv_content=true&size_mode=5");
+    background-position: center;
+}
+
+.cover6 {
+    background-image: url("https://previews.dropbox.com/p/thumb/ABMXl0255wqPs_b3LRL9D4yoqmYJdjYD6LPGwE_WXhS1_y-siqVD7-UNgVW7fSecruOPCVaP1hgV3G3MAbfKQPaOV6RqH1WJkGYDI8_zQpflJJ11vN8sn9aNNJdyowwF61s-SyAgrcGJkIAAZ7An_Wl74XccJMWBRTJluycDsJOYWET63tE95zcQzedz_OIfc5R5Of6gMj1g_TSxBm5YYwT7E6XtQKVgWrUWBdDUMOJJW_OoQUvqrZfYGQlMvR5Ou6dnJRqfmQokU5dQ5jyAGroTUj3DZkjlJszkeT1D3j23sRlbqqkh1zg80wWZh84XQoSa56vqkARz_d6cw5uHK5N0KuDQNhOcGA2lLl1O9Az8Xg/p.jpeg?fv_content=true&size_mode=5");
+    background-position: -20px;
+}

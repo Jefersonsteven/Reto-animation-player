@@ -1,0 +1,162 @@
+.controls-player-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 309px;
+    height: 389px;
+    background: #535B6C;
+    border-radius: 22px;
+    align-items: center;
+    z-index: 2;
+}
+
+.cover {
+    background-image: url('https://previews.dropbox.com/p/thumb/ABP4fA5eEXeZxBK0HajVjf5w7dDsVJyXhodrF4KLUrgoTFKdLwZZ_vph0RQ6aSV68w1qD-V4MTTqYgr1zdJPYWh1GAGxZLybo6vSugMpfMHBqzdwV8mV7FAL5o9M9VVyGr582XEHBJOwb3LxJ7qyLZ7iqY9ZinGlYZd3VJstSqBOnhiMSDiTiB7VwG7uhAjpzdKsl-CRlRdw5fzAYBkgu128k-_KvJp-oPLUo4UenkziNjHApeojIq7izqou8rJ6M--dYNMLvPlNbRLJLEle0y1EvpwEhzP3_x9KPHKvWgIhZuz5xYL9MbJqS7PzkJTDXijczNLU08QBjZ8Uzmr_Xrc35yPLjSCSdAvnXMtl3-4cAg/p.jpeg?fv_content=true&size_mode=5');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -53px;
+    background-size: cover;
+    width: 309px;
+    height: 286px;
+    border-radius: 22px;
+}
+
+.menu {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.controls-player-container__cover .menu:active {
+    transition: all 0.2s ease;
+    transform: scale(0.5, 0.5);
+}
+
+.controls-player-container__controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls-player-container__controls {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.controls-player-container__controls button:nth-child(1) {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.controls-player-container__controls button:nth-child(3) {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.controls-player-container__controls button:active {
+    transition: all 0.2s ease;
+    transform: scale(0.5, 0.5);
+}
+
+.controls-player-container__controls--info-song {
+    display: flex;
+    flex-direction: column;
+    height: 44px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.controls-player-container__controls--info-song p:nth-child(1) {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.controls-player-container__controls--info-song p:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: white;
+}
+
+.controls-player-container__bar-progress {
+    position: relative;
+    width: 216px;
+    height: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.controls-player-container__bar-progress div:nth-child(1) {
+    position: relative;
+    width: 216px;
+    height: 3px;
+    background: #EBEBEB;
+    border-radius: 3px;
+}
+
+.controls-player-container__bar-progress div:nth-child(2) {
+    position: absolute;
+    width: 162px;
+    height: 3px;
+    background: #00A3FF;
+    border-radius: 3px;
+    top: 0;
+}
+
+.controls-player-container__bar-progress div:nth-child(3) {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #00A3FF;
+    border-radius: 50%;
+    top: -3px;
+    left: 160px;
+}
+
+
+
+/* Click class add */
+
+/* .small-controls-player-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    width: 309px;
+    height: 109px;
+    background: #535B6C;
+    border-radius: 22px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.small-cover {
+    background-image: url('https://previews.dropbox.com/p/thumb/ABP4fA5eEXeZxBK0HajVjf5w7dDsVJyXhodrF4KLUrgoTFKdLwZZ_vph0RQ6aSV68w1qD-V4MTTqYgr1zdJPYWh1GAGxZLybo6vSugMpfMHBqzdwV8mV7FAL5o9M9VVyGr582XEHBJOwb3LxJ7qyLZ7iqY9ZinGlYZd3VJstSqBOnhiMSDiTiB7VwG7uhAjpzdKsl-CRlRdw5fzAYBkgu128k-_KvJp-oPLUo4UenkziNjHApeojIq7izqou8rJ6M--dYNMLvPlNbRLJLEle0y1EvpwEhzP3_x9KPHKvWgIhZuz5xYL9MbJqS7PzkJTDXijczNLU08QBjZ8Uzmr_Xrc35yPLjSCSdAvnXMtl3-4cAg/p.jpeg?fv_content=true&size_mode=5');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -8px;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    border-radius: 11px;
+}
+
+.small-menu {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+} */
+
+/* ---------------------------------------------- */
+
